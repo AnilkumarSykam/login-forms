@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>task-25</title>
+        <style>
+            .container{
+                width: 1200px;
+                height: 600px;
+                box box-shadow: 0 0 3px 0 black;
+                transform:translate(150px,60px);
+                border-radius:8px;
+
+            }
+            .box1{
+                float: left;
+                width: 598px;
+                height: 599px;
+
+            }
+            .box2{
+                float: right;
+                width: 598px;
+                height: 599px;
+            }
+            h1{
+                font-family: sans-serif;
+            }
+            .discription{
+                font-size: 14px;
+                transform: translate(-12px);
+            }
+            input[type="text"]{
+                width: 550px;
+                height: 40px;
+              border-radius: 15px;
+              border: 1px solid #aaa;
+              outline: none;
+              background-color: rgb(215,213,312);
+              margin-top: 5px;
+              box-shadow: 1px 1px 1px black;
+              text-indent: 15px;
+
+            }
+            .email{
+                transform: translateY(5px);
+
+            }
+            .message{
+                transform: translateY(0px);
+            }
+            textarea{
+                width: 550px;
+                height: 150px;
+                border-radius: 15px;
+                border: 1px 1px 1px black;
+                text-indent: 15px;
+                background-color: rgb(156, 183, 241);
+
+            }
+            input[type="text"]:focus{
+                border-color: dodgerblue;
+                box-shadow: 0 0 1px 0 dodgerblue;
+
+            }
+            input[type="submit"]{
+                transform: translate(450px,100px);
+                width: 100px;
+                height: 35px;
+                border-radius: 5px;
+                color: whitesmoke;
+                background-color: blue;
+                border-color: blue;
+                box-shadow: 1px 1px 1px black;
+            }
+            textarea:focus{
+                border-color: dodgerblue;
+                box-shadow: 0 0 1px 0 dodgerblue;
+            }
+            img{
+                transform: translate(130px,110px);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box1">
+                <img src="messages.png" alt="no image">
+            </div>
+            <div class="box2">
+                <div class="title"><h1>contact us</h1></div>
+                <div class="discription"><p>got aqustion?me'd love to hear from you.send us a message and<br>well respond as soon as posible</p></div>
+                <div class="name">user name</div>
+                <div class="name box"><input type="text"/></div>
+                <div class="email">email or phone</div>
+                <div class="emailbox"><input type="text"/></div>
+                <div class="message">message</div>
+                <div class="messagebox"><textarea></textarea></div>
+                <input type="submit" value="SEND">
+            </div>
+        </div>
+    </body>
+</html>
